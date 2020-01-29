@@ -1,1 +1,52 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Registration form</h1>
+
+        <form action="">
+            <label for="username">Username</label>
+            <input type="text" required />
+            <label for="password">password</label>
+            <input type="password" required />
+            <br>
+            <label for="email">Email</label>
+            <input type="email" required />
+            <br>
+            <label for="taxi">Which taxi do you require?</label>
+            <br>
+            <input type="radio" name="taxi">
+            <label for="car">Car</label>
+            <br>
+            <input type="radio" name="taxi">
+            <label for="van">Van</label>
+            <br>
+            <input type="radio" name="taxi">
+            <label for="tuktuk">Tuk Tuk</label>
+            <br>
+            <label for="extras">Extras</label>
+            <br>
+            <input type="checkbox">
+            <label for="baby seat">Baby seat</label>
+            <br>
+            <input type="checkbox">
+            <label for="wheelchair">Wheelchair Access</label>
+            <br>
+            <input type="checkbox">
+            <label for="stock">Stock Tip</label>
+            <br>
+            <label for="pickup">Pickup</label>
+            <select name="pickup" id="pickup">
+                <option value="Selectone">Select One</option>
+                <option value="taxi">Taxi Office</option>
+                <option value="town">Town Hall</option>
+                <option value="guess">We'll Guess!</option>
+            </select>
+            <br>
+            <label for="special">Special</label>
+            <textarea name="special" id="special" cols="20" rows="2"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
